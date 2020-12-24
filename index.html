@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somikoron ITS</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style>
+.preloader{
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+  /* position: relative; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1300;
+}
+.line {
+  background: transparent;
+  width: 115px;
+  height: 115px;
+  border: 2px dotted #444343;
+  position: relative;
+  /* margin: 150px auto; */
+  padding: 30px;
+  border-radius: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+.earth {
+  background: #4ba0ff;
+      box-shadow: 0px 1px 5px 1px #4ba0ff;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+	animation-name: preloader;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+    transform-origin: 43px 50px;
+    will-change: transform;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+}
+.sun {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  box-shadow: 0px 1px 15px 5px #fda085;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+
+}
+
+@keyframes preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+    </style>
+</head>
+<body>
+
+  <!-- preloader -->
+<!-- <div class="preloader" id="preloader">
+  <div class="line" id="line">
+    <div class="sun">
+    <div class="earth"></div>
+  </div>
+  </div>
+</div> -->
+    <!-- ======================= Header part start ======================= -->
+
+ <section class="nav_section" id="navbar">
+  <div class="container">
+     <nav class="navbar navbar-expand-lg ">
+         <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" class="img-responsive img-fluid"></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav" aria-controls="mynav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class=""><i class="fas fa-bars"></i></span>
+         </button>
+       
+         <div class="collapse navbar-collapse" id="mynav">
+           <ul class="navbar-nav ml-auto">
+             <li class="nav-item">
+               <a class="nav-link" href="index.html">Home</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="services.html">Services</a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" href="price.html">Price</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="portfolio.html">Portfolio</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">Contact</a>
+               </li>
+           </ul>
+
+         </div>
+       </nav>
+  </div>
+</section>
+
+<!-- ======================= Header part end ======================= -->
+    <!-- Banner part start -->
+
+    <section class="banner_section d-flex align-items-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="banner_text_body">
+                        <div class="banner_text_content">
+                            <h5>Information Technology Agency</h5>
+                            <h2>Somikoron <span>IT</span></h2>
+                            <p>We build effective strategies to help you reach customers and prospects across the entire web.</p>
+                            <div class='all_button  mr-2'>
+                              <a href="">
+                                Learn More
+                                <i
+                                  class='fa fa-angle-double-right home_btn_icon'
+                                  aria-hidden='true'
+                                ></i>
+                              </a>
+                            </div>
+                            <div class='all_button  mr-2'>
+                              <a href="" class="home_contact_btn">
+                              Contact Now
+                                <i
+                                  class='fa fa-angle-double-right home_btn_icon'
+                                  aria-hidden='true'
+                                ></i>
+                              </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="banner_img_body">
+                        <div class="banner_img">
+                            <img src="./images/home1.png" alt="" class="img-responsive img-fluid animated">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner part End -->
+
+    <!-- Plan part start -->
+
+    <section class="plan_section d-flex align-items-center py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="plan_content_body">
+                        <div class="plan_content_text">
+                            <h2>Explain Business Challenges With Us</h2>
+                            <p>Since 2019 we have been a visionary and a solid programming designing accomplice for elite brands. We are a boutique advanced change consultancy and programming improvement organization that gives front line building arrangements.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="plan_main_body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-12 py-3">
+                                        <div class="plan_details ">
+                                            <div class="plan_icons">
+                                                <h2><i class="fas fa-bezier-curve"></i></h2>
+                                            </div>
+                                            <h4>Agile Software Development</h4>
+                                            <p>The entirety of our groups follow Scrum approach, which has demonstrated to give incredible outcomes and keep all the undertaking partners in a state of harmony.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 py-3">
+                                        <div class="plan_details regular_cls">
+                                            <div class="plan_icons">
+                                                <h2><i class="fas fa-comments-dollar"></i></h2>
+                                            </div>
+                                            <h4>Regular calls and meetings</h4>
+                                            <p>One of our first concerns is fast response time and availability. Our group is consistently a call, skype summon or email.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 custom_margin">
+                                <div class="row">
+                                    <div class="col-md-12 py-3">
+                                        <div class="plan_details best_dev ">
+                                            <div class="plan_icons ">
+                                                <h2><i class="fab fa-codepen"></i></h2>
+                                            </div>
+                                            <h4>Best Development Practices</h4>
+                                            <p>With us, you can depend on a steady demo condition, adroit QA and testing, consistently available and secure code, and quick conveying.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 py-3">
+                                        <div class="plan_details high_per ">
+                                            <div class="plan_icons">
+                                                <h2><i class="fas fa-award"></i></h2>
+                                            </div>
+                                            <h4>High Personal Involvement</h4>
+                                            <p>From initiative to groups on the ground, we are all truly enthusiastic about what we do and are continually endeavoring to be pioneers in our field, rather than simply keeping up. For us, the customers prosperity is our prosperity.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Plan part end -->
+
+<!-- About part start -->
+
+<section class="about_section py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="about_img_body">
+                    <div class="about_img">
+                        <img src="./images/about2.png" alt="" class="img-fluid img-responsive">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="abou_text_body">
+                    <div class="about_text_content">
+                        <p>About US</p>
+                        <h2>We are a boutique advanced change consultancy and programming improvement organization</h2>
+                        <p class="about_des">Somikoron IT Services is an interesting Software improvement organization who since its very beginnings in 2020 has satisfied a specialty in the quickly developing IT industry. We have developed as a pioneer in offering keen programming just as IT answers for little, medium and corporate organizations in a wide scope of industry segments. To date we have assembled a huge arrangement of faithful clients that rely upon our ability to direct their center business capacities..</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-12 py-3">
+                            <div class="counter_body">
+                                <h2>500</h2>
+                                <p>Projects Completed</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 py-3">
+                            <div class="counter_body">
+                                <h2>500</h2>
+                                <p>Satisfied Clients</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About part end -->
+
+<!-- Services part start -->
+
+<section class="home_services_section py-5">
+    <div class="container">
+        <div class="row justify-content-center py-5">
+            <div class="col-md-6">
+                <div class="main_heading">
+                    <h2>WHAT ARE YOU LOOKING FOR?</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-cener">
+            <div class="col-md-4 py-3">
+                <a href="javascript:void(0)">
+                    <div class="home_services_body">
+                        <div class='home_service_icon'>
+                            <img src="./images/svg/digital-marketing.svg" alt="" class="img-responsive img-fluid">
+                        </div>
+                        <div class='home_service_text_content'>
+                            <h4>Digital Marketing</h4>
+                            <p>Once online, we help track how effective your marketing is, and make adjustments to improve results over time</p>
+                            <p class='price_hover'>
+                              Price
+                              <span>
+                                <i class='fas fa-long-arrow-alt-right'></i>
+                              </span>
+                            </p>
+                          </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 py-3">
+                <a href="javascript:void(0)">
+                    <div class="home_services_body">
+                        <div class='home_service_icon'>
+                            <img src="./images/svg/computer-science.svg" alt="" class="img-responsive img-fluid">
+                        </div>
+                        <div class='home_service_text_content'>
+                            <h4>Data Science</h4>
+                            <p>Through personalized analytics dashboards, you can measure the impact your message is having on growth and campaign</p>
+                            <p class='price_hover'>
+                              Price
+                              <span>
+                                <i class='fas fa-long-arrow-alt-right'></i>
+                              </span>
+                            </p>
+                          </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 py-3">
+                <a href="price.html">
+                    <div class="home_services_body">
+                        <div class='home_service_icon'>
+                            <img src="./images/svg/web-design.svg" alt="" class="img-responsive img-fluid">
+                        </div>
+                        <div class='home_service_text_content'>
+                            <h4>Web Design</h4>
+                            <p>Once online, we help track how effective your marketing is, and make adjustments to improve results over time</p>
+                            <p class='price_hover'>
+                              Price
+                              <span>
+                                <i class='fas fa-long-arrow-alt-right'></i>
+                              </span>
+                            </p>
+                          </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 py-3">
+                <a href="price.html">
+                    <div class="home_services_body">
+                        <div class='home_service_icon'>
+                            <img src="./images/svg/web-dev.svg" alt="" class="img-responsive img-fluid">
+                        </div>
+                        <div class='home_service_text_content'>
+                            <h4>Web Development</h4>
+                            <p>Once online, we help track how effective your marketing is, and make adjustments to improve results over time</p>
+                            <p class='price_hover'>
+                              Price
+                              <span>
+                                <i class='fas fa-long-arrow-alt-right'></i>
+                              </span>
+                            </p>
+                          </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 py-3">
+                <a href="javascript:void(0)">
+                    <div class="home_services_body">
+                        <div class='home_service_icon'>
+                            <img src="./images/svg/mobile-app.svg" alt="" class="img-responsive img-fluid">
+                        </div>
+                        <div class='home_service_text_content'>
+                            <h4>Android Development</h4>
+                            <p>Once online, we help track how effective your marketing is, and make adjustments to improve results over time</p>
+                            <p class='price_hover'>
+                              Price
+                              <span>
+                                <i class='fas fa-long-arrow-alt-right'></i>
+                              </span>
+                            </p>
+                          </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 py-3">
+                <a href="javascript:void(0)">
+                    <div class="home_services_body">
+                        <div class='home_service_icon'>
+                            <img src="./images/svg/cross-platform.svg" alt="" class="img-responsive img-fluid">
+                        </div>
+                        <div class='home_service_text_content'>
+                            <h4>Cross Platform</h4>
+                            <p>Once online, we help track how effective your marketing is, and make adjustments to improve results over time</p>
+                            <p class='price_hover'>
+                              Price
+                              <span>
+                                <i class='fas fa-long-arrow-alt-right'></i>
+                              </span>
+                            </p>
+                          </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services part end -->
+
+<!-- Choose part start -->
+<section class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="home_choose_body">
+                    <div class="home_choose_text_content">
+                        <p class="home_choose_title">reason to choose us</p>
+                        <h2>Extraordinary Digital Experience</h2>
+                        <p>We accept that our straightforwardness with our customers is the thing that separates us from our competition.If you are searching for a believed IT accomplice and your organization has comparative guidelines to our organization we might truly want to get with you</p>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-1 col-2 text-right">
+                                        <div class='home_choose_icon'>
+                                            <span>
+                                              <i class='fas fa-check'></i>
+                                            </span>
+                                          </div>
+                                    </div>
+                                    <div class="col-md-11 col-10">
+                                        <div class='home_choose_list'>
+                                            <h4>CUSTOMER FOCUSED</h4>
+                                            <p>We basically tune in to our customers. Our devoted record supervisory crew is in steady contact with our clients to guarantee that we convey in each part of our dealings.</p>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-1 col-2 text-right">
+                                        <div class='home_choose_icon'>
+                                            <span>
+                                              <i class='fas fa-check'></i>
+                                            </span>
+                                          </div>
+                                    </div>
+                                    <div class="col-md-11 col-10">
+                                        <div class='home_choose_list'>
+                                            <h4>PROCESS ORIENTED</h4>
+                                            <p>We are a cycle arranged association. This guarantees brief and top notch conveyance from basic helpdesk undertakings to complex multi merchant ventures with exacting time spans.</p>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-1 col-2 text-right">
+                                        <div class='home_choose_icon'>
+                                            <span>
+                                              <i class='fas fa-check'></i>
+                                            </span>
+                                          </div>
+                                    </div>
+                                    <div class="col-md-11 col-10">
+                                        <div class='home_choose_list'>
+                                            <h4>CUTTING EDGE TOOLS</h4>
+                                            <p>We put stock in putting resources into our "secrets to success". Our organization has made some noteworthy interests in the most developed apparatuses that empower us to convey in the most requesting conditions.</p>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="home_choose_img">
+                    <img src="./images/choose.png" alt="" class="img-responsive img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Choose part end -->
+
+<!-- Team part start -->
+
+<section class="py-5">
+    <div class="container">
+      <div class="row justify-content-center py-5">
+        <div class="col-md-6">
+            <div class="main_heading">
+                <h2>Our Team</h2>
+            </div>
+        </div>
+    </div>
+        <div class="row justify-content-center team_slider">
+            <div class="col-md-3 py-3">
+                <div class='team'>
+                    <div class='team_content'>
+                      <div class='team_image'>
+                        <img src="./images/passport.jpg" class="img-responsive img-fluid"/>
+                      </div>
+                      <div class='name'>
+                        <h4>Shohel Arman</h4>
+                        <p>Boss</p>
+                      </div>
+                      <div class='team_social'>
+                        <ul>
+                          <li>
+                            <a href="" class="tm_fb">
+                              <i class='fab fa-facebook-f '></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="tm_tw">
+                              <i class='fab fa-twitter '></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="tm_ins">
+                              <i class='fab fa-linkedin '></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3 py-3">
+                <div class='team'>
+                    <div class='team_content'>
+                      <div class='team_image'>
+                        <img src="./images/saleh.jpg" class="img-responsive img-fluid"/>
+                      </div>
+                      <div class='name'>
+                        <h4>Hafeezur Saleh</h4>
+                        <p>Sr. Software Engineer</p>
+                      </div>
+                      <div class='team_social'>
+                        <ul>
+                          <li>
+                            <a href="" class="tm_fb">
+                              <i class='fab fa-facebook-f '></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="tm_tw">
+                              <i class='fab fa-twitter '></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="tm_ins">
+                              <i class='fab fa-linkedin '></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3 py-3">
+                <div class='team'>
+                    <div class='team_content'>
+                      <div class='team_image'>
+                        <img src="./images/munna.jpg" class="img-responsive img-fluid"/>
+                      </div>
+                      <div class='name'>
+                        <h4>Munna Patwary</h4>
+                        <p>Sr. Software Engineer</p>
+                      </div>
+                      <div class='team_social'>
+                        <ul>
+                          <li>
+                            <a href="" class="tm_fb">
+                              <i class='fab fa-facebook-f '></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="tm_tw">
+                              <i class='fab fa-twitter '></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="tm_ins">
+                              <i class='fab fa-linkedin '></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3 py-3">
+                <div class='team'>
+                    <div class='team_content'>
+                      <div class='team_image'>
+                        <img src="./images/shuvo.jpg" class="img-responsive img-fluid"/>
+                      </div>
+                      <div class='name'>
+                        <h4>Shouman Barua Shuvo</h4>
+                        <p>Android Developer</p>
+                      </div>
+                      <div class='team_social'>
+                        <ul>
+                          <li>
+                            <a href="" class="tm_fb">
+                              <i class='fab fa-facebook-f '></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="tm_tw">
+                              <i class='fab fa-twitter '></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="tm_ins">
+                              <i class='fab fa-linkedin '></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3 py-3">
+                <div class='team'>
+                    <div class='team_content'>
+                      <div class='team_image'>
+                        <img src="./images/dipak.jpg" class="img-responsive img-fluid"/>
+                      </div>
+                      <div class='name'>
+                        <h4>Dipak Devnath</h4>
+                        <p>Web Developer</p>
+                      </div>
+                      <div class='team_social'>
+                        <ul>
+                          <li>
+                            <a href="" class="tm_fb">
+                              <i class='fab fa-facebook-f '></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="tm_tw">
+                              <i class='fab fa-twitter '></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="tm_ins">
+                              <i class='fab fa-linkedin '></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3 py-3">
+                <div class='team'>
+                    <div class='team_content'>
+                      <div class='team_image'>
+                        <img src="./images/shova.jpg" class="img-responsive img-fluid"/>
+                      </div>
+                      <div class='name'>
+                        <h4>Jannatul Ferdous Shuva</h4>
+                        <p>Content Editor</p>
+                      </div>
+                      <div class='team_social'>
+                        <ul>
+                          <li>
+                            <a href="" class="tm_fb">
+                              <i class='fab fa-facebook-f '></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="tm_tw">
+                              <i class='fab fa-twitter '></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="tm_ins">
+                              <i class='fab fa-linkedin '></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3 py-3">
+                <div class='team'>
+                    <div class='team_content'>
+                      <div class='team_image'>
+                        <img src="./images/noor.jpg" class="img-responsive img-fluid"/>
+                      </div>
+                      <div class='name'>
+                        <h4>Sir Tawhidur Noor</h4>
+                        <p>Boss Pro Max</p>
+                      </div>
+                      <div class='team_social'>
+                        <ul>
+                          <li>
+                            <a href="" class="tm_fb">
+                              <i class='fab fa-facebook-f '></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="tm_tw">
+                              <i class='fab fa-twitter '></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="tm_ins">
+                              <i class='fab fa-linkedin '></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer part start -->
+<section class='pt-5 footer_bg'>
+  <div class='container'>
+    <div class='row justify-content-center'>
+      <div class='col-md-3 my-2'>
+        <div class='footer_logo_content'>
+          <div class='footer_title_text'>
+            <h4>Somikoron IT</h4>
+            <p class='mt-3'>Somikoron IT Services is a sister concern of Somikoron Group and is an IT solution & service provider in Bangladesh specializing in providing an extensive range of software solutions, Analysis, and marketing services.</p>
+          </div>
+        </div>
+      </div>
+      <div class='col-md-3 my-2'>
+        <div class='footer_service_content'>
+          <div class='footer_service_heading'>
+            <h4>Services</h4>
+          </div>
+          <div class='footer_services'>
+            <ul>
+              <li>
+                <a href='#'>Digital Marketing</a>
+              </li>
+              <li>
+                <a href='#'>Data Science</a>
+              </li>
+              <li>
+                <a href='#'>App Development</a>
+              </li>
+              <li>
+                <a href='#'>Web Design</a>
+              </li>
+              <li>
+                <a href='#'>Web Development</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class='col-md-3 my-2'>
+        <div class='footer_quick_link'>
+          <div class='footer_quick_heading'>
+            <h4>Useful Links</h4>
+          </div>
+          <ul>
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href>Service</a>
+            </li>
+            <li>
+              <a href="">Price</a>
+            </li>
+            <li>
+              <a href="">Portfolio</a>
+            </li>
+            <li>
+              <a href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='col-md-3 my-2'>
+        <div class='contact_us_content text-left'>
+          <div class='contact_footer_heading'>
+            <h4>Contact Us</h4>
+          </div>
+          <div class='row d-flex align-items-center'>
+            <div class='col-md-12'>
+              <div class='phone_num'>
+                <ul>
+                  <li>
+                    <span>
+                      <i class='fas fa-phone phone'></i>
+                    </span>
+                    <a href='#'>+8801762-850108</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class='row d-flex align-items-center '>
+            <div class='col-md-12'>
+              <div class='email'>
+                <ul>
+                  <li>
+                    <span>
+                      <i class='far fa-envelope envelop'></i>
+                    </span>
+                    <a href='#'>service@somikoron.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class='row d-flex align-items-center '>
+            <div class='col-md-12'>
+              <div class='email'>
+                <ul>
+                  <li>
+                    <span>
+                      <i class='fas fa-map-marker-alt phone'></i>
+                    </span>
+                    <a href='#'><span>Shukrabad, Dhanmondi - 32, Dhaka, Bangladesh.</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class='row justify-content-between d-flex align-items-center'>
+      <div class='col-md-6'>
+        <div class='footer_copyright'>
+          <p>
+
+          © 2020 Copyright: <span>somikoronits.com</span>
+          </p>
+        </div>
+      </div>
+      <div class='col-md-6 d-flex align-items-center'>
+        <div class='footer_social'>
+          <ul>
+            <li>
+              <a href="" target='_blank' class="footer_fb">
+                <i class='fab fa-facebook-f '></i>
+              </a>
+            </li>
+            <li>
+              <a href="" target='_blank' class="ins">
+                <i class='fab fa-instagram '></i>
+              </a>
+            </li>
+            <li>
+              <a href="" target='_blank' class="ytb">
+                <i class='fab fa-youtube '></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      <script src="js/jquery-3.5.1.slim.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/all.min.js"></script>
+      <script src="js/slick.js"></script>
+      <script src="js/all_slider.js"></script>
+      <script src="js/main.js"></script>
+      <script>
+
+
+      </script>
+</body>
+</html>

@@ -1,0 +1,310 @@
+@media (max-width: 576px) {
+  .navbar a img {
+    height: 45px;
+    width: 150px;
+  }
+  .prev_arrow {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 35px;
+    line-height: 35px;
+    width: 35px;
+    font-size: 12px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #1cafc1;
+    text-align: center;
+    z-index: 99;
+    cursor: pointer;
+  }
+
+  .next_arrow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    height: 35px;
+    line-height: 35px;
+    width: 35px;
+    font-size: 12px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #1cafc1;
+    text-align: center;
+    z-index: 99;
+    cursor: pointer;
+  }
+  .banner_text_content p {
+    color: #7a7a7a;
+    font-size: 12px;
+  }
+  .banner_text_content h2 {
+    font-weight: bolder;
+    color: #1a1a1a;
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+  .all_button a {
+    display: inline-block;
+    height: 38px;
+    line-height: 33px;
+    width: 130px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #1cafc1;
+    border: 2px solid #1cafc1;
+    color: #fff;
+    font-size: 12px;
+  }
+  .banner_img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  .banner_text_content h5 {
+    color: #1cafc1;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .plan_content_text h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1cafc1;
+    width: 100%;
+  }
+  .plan_content_text p {
+    font-size: 12px;
+    color: #a1a1a1;
+    width: 100%;
+  }
+  .plan_details h4 {
+    font-size: 14px;
+    color: #484848;
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  .plan_details p {
+    font-size: 12px;
+    color: #585658;
+  }
+  .custom_margin {
+    margin-top: 0;
+  }
+  .about_text_content h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #484848;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .about_text_content p {
+    font-size: 12px;
+    color: #1cafc1;
+    font-weight: 700;
+  }
+  .about_text_content .about_des {
+    font-size: 12px !important;
+    color: #484848 !important;
+    font-weight: normal !important;
+    padding-top: 10px;
+  }
+  .counter_body h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1cafc1;
+  }
+  .counter_body p {
+    font-size: 12px;
+    font-weight: 700;
+    color: #484848;
+  }
+  .main_heading h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-align: center;
+  }
+  .home_service_text_content h4 {
+    color: #1cafc1;
+    transition: all 0.5s linear;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .home_service_text_content p {
+    color: #484848;
+    font-size: 12px;
+    transition: all 0.5s linear;
+    padding: 0px 10px;
+  }
+  .home_service_icon {
+    height: 45px;
+    width: 45px;
+    overflow: hidden;
+    margin: auto;
+  }
+  .home_choose_text_content p.home_choose_title {
+    font-size: 12px;
+    font-weight: 700;
+    color: #1cafc1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .home_choose_text_content h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #484848;
+    width: 100%;
+  }
+  .home_choose_text_content p {
+    color: #484848;
+    font-size: 12px;
+  }
+  .home_choose_list h4 {
+    font-size: 14px;
+    color: #484848;
+  }
+  .footer_title_text p {
+    font-size: 12px;
+    color: #fff;
+  }
+  .footer_bg {
+    background-color: #000;
+  }
+  .footer_services ul li a {
+    font-size: 12px;
+    color: #fff;
+  }
+  .footer_quick_link ul li a {
+    font-size: 12px;
+    color: #fff;
+  }
+  .phone_num ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #fff;
+  }
+  .email ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #fff;
+  }
+  .footer_copyright p span {
+    font-weight: 700 !important;
+    font-size: 12px;
+  }
+  .footer_copyright p {
+    font-size: 12px;
+    color: #fff;
+  }
+  .plan_icons h2 {
+    font-size: 25px;
+    color: #fff;
+    line-height: 50px;
+  }
+  .plan_icons {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    background-color: #d443f7;
+    border: 1px solid #fff;
+  }
+  .services_img {
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    overflow: hidden;
+  }
+  .service_name h4 {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+  }
+  .price_main_nav ul li a {
+    font-size: 12px !important;
+  }
+  .price_text_content h4 {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #01082d;
+  }
+  .price_text_content h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+  .price_cards .nav li .nav-link {
+    color: #fff !important;
+    font-size: 12px;
+  }
+  .price_cards {
+    width: 100%;
+    /* background-color: #1a1a1a; */
+    position: relative;
+    padding: 10px 5px;
+  }
+  .price_icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+  }
+  .price_amount h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1cafc1;
+    transition: all 0.3s linear;
+  }
+  .price_amount p {
+    font-size: 12px;
+    color: #9a9a9a;
+    transition: all 0.3s linear;
+  }
+  .price_plan_des {
+    text-align: center;
+    padding: 0px 5px;
+    padding-bottom: 15px;
+  }
+  .price_plan_des ul li {
+    list-style-type: none;
+    padding: 10px 0;
+    color: #e3e3e3;
+    font-size: 12px;
+  }
+  .price_card_body {
+    transition: all 0.3s linear;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: -1px 1px 16px 11px #000000;
+    box-shadow: -1px 8px 16px 5px #000;
+    border-radius: 3px;
+  }
+  .product_image {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #d8d8d8;
+    padding: 1px;
+  }
+
+  .control {
+    font-size: 12px;
+  }
+}
