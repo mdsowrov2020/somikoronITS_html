@@ -217,8 +217,8 @@
     border-radius: 50%;
     overflow: hidden;
     margin: auto;
-    background-color: #d443f7;
-    border: 1px solid #fff;
+    /* background-color: #d443f7;
+    border: 1px solid #fff; */
   }
   .services_img {
     height: 70px;

@@ -52,6 +52,9 @@ a {
   width: 100%;
   transition: all 0.5s linear;
   background: #fff !important;
+  background: rgba(255, 255, 255, 0.25) !important;
+  backdrop-filter: blur(4px) !important;
+  -webkit-backdrop-filter: blur(4px) !important;
 }
 
 .navbar button span {
@@ -324,10 +327,14 @@ a {
 
 /* service part start */
 .home_services_section {
-  background: #1db0c1;
-  background: -webkit-linear-gradient(top left, #1db0c1, #f9f9f9);
-  background: -moz-linear-gradient(top left, #1db0c1, #f9f9f9);
-  background: linear-gradient(to bottom right, #1db0c1, #f9f9f9);
+  background-image: linear-gradient(
+    to bottom,
+    #1db0c1,
+    #77c1dd,
+    #b2d3ee,
+    #e0e7f7,
+    #ffffff
+  );
 }
 .home_services_body {
   transition: all 0.5s linear;
@@ -335,7 +342,7 @@ a {
   padding: 20px 10px;
   background-color: #f1f1f1;
   text-align: center;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.3);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -429,6 +436,16 @@ a {
 }
 
 /* team part */
+.team_section {
+  background-image: linear-gradient(
+    to top,
+    #1db0c1,
+    #77c1dd,
+    #b2d3ee,
+    #e0e7f7,
+    #ffffff
+  );
+}
 .team {
   background-color: #fff;
   background-image: linear-gradient(
