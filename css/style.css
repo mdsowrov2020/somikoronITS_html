@@ -1010,7 +1010,7 @@ a {
   background-color: #1a1a1a;
   position: relative;
   padding: 10px 20px;
-  background-image: url(../images/ocean_price1.jpg);
+  background-image: url(../images/tex1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1150,7 +1150,7 @@ a {
   border: none !important;
   box-shadow: none !important;
   border-radius: 30px !important;
-  padding: 0 15px;
+  padding: 0 15px !important;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
   color: #1a1a1a !important;
 }

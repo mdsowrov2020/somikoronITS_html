@@ -322,4 +322,12 @@
   .price_main_nav ul li a.nav-link span {
     display: none;
   }
+  .price_control {
+    height: 38px !important;
+    line-height: 38px !important;
+  }
+  .plan_submit_btn {
+    height: 38px !important;
+    line-height: 38px !important;
+  }
 }
