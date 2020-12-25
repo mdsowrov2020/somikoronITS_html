@@ -307,4 +307,19 @@
   .control {
     font-size: 12px;
   }
+  .price_select_btn a {
+    background: rgba(255, 255, 255, 0.9) !important;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    color: #1cafc1 !important;
+    border: none !important;
+    line-height: 39px !important;
+  }
+  .price_main_nav ul li a.nav-link {
+    font-size: 11px !important;
+  }
+  .price_main_nav ul li a.nav-link span {
+    display: none;
+  }
 }

@@ -642,9 +642,13 @@ a {
 .price_main_nav .nav {
   text-align: center !important;
   width: 100%;
+  border-radius: 30px;
+  background-color: #1a1a1a;
+  padding: 8px 5px;
 }
 .price_main_nav ul li {
   text-align: center !important;
+  margin: 0 8px;
 }
 .price_main_nav .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
@@ -655,12 +659,20 @@ a {
   position: relative;
   border-radius: 30px !important;
 }
+.price_main_nav .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active:hover {
+  color: #fff !important;
+}
 
-.price_main_nav ul li a {
+.price_main_nav ul li a.nav-link {
   background-color: transparent !important;
   border: none !important;
-  color: #1a1a1a !important;
+  color: #fff !important;
   font-size: 16px !important;
+  transition: all 0.3s linear;
+}
+.price_main_nav ul li a.nav-link:hover {
+  color: #1cafc1 !important;
 }
 .price_main_nav .nav-tabs {
   border: none !important;
@@ -1009,6 +1021,12 @@ a {
 .filtering ul li {
   display: inline-block;
 }
+.filtering ul {
+  padding: 0 2px;
+  padding-top: 6px;
+  border-radius: 30px;
+  background-color: #1a1a1a;
+}
 .control-active {
   background: #1cafc1 !important;
   color: #fff !important;
@@ -1029,7 +1047,7 @@ a {
   padding: 8px 25px;
   /* padding: 10px 30px !important; */
   background: transparent;
-  color: #484848;
+  color: #fff;
   font-weight: 700;
   transition: 0.5s;
 }
@@ -1077,4 +1095,115 @@ a {
 .product_body:hover .visit_site {
   bottom: 0;
   opacity: 1;
+}
+
+.select_plan_section .price_plan_select_body {
+  position: fixed;
+  z-index: 1400;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  /* background: rgba(0, 0, 0, 0.35); */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: none;
+}
+
+.select_plan_section.faq_active .price_plan_select_body {
+  display: block;
+}
+
+.select_plan_section .form_main {
+  position: fixed;
+  z-index: 1401;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.select_plan_section.faq_active .form_main {
+  display: block;
+}
+
+.plan_form {
+  /* background: rgba(0, 0, 0, 0.35); */
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  padding: 25px;
+  width: 100%;
+}
+
+.price_control {
+  background: #7ec1c9 !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  /* backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px); */
+  height: 50px !important;
+  line-height: 50px !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 30px !important;
+  padding: 0 15px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+  color: #1a1a1a !important;
+}
+
+.text_area_control {
+  background: rgba(255, 255, 255, 0.35) !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  /* backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px); */
+
+  border: 1px solid #65bdc8 !important;
+  box-shadow: none !important;
+  border-radius: 20px !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+  color: #1a1a1a !important;
+}
+.price_control_drop {
+  border-radius: 30px !important;
+}
+
+.plan_form_close {
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  right: 0;
+  top: -12%;
+  cursor: pointer;
+}
+
+.plan_form_close img {
+  height: 100%;
+  width: 100%;
+}
+.price_select_btn a {
+  background: rgba(255, 255, 255, 0.9) !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  color: #1cafc1 !important;
+  border: none !important;
+  line-height: 55px !important;
+}
+
+.plan_submit_btn {
+  height: 50px !important;
+  line-height: 50px !important;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #1cafc1;
+  color: #fff;
+  font-size: 16px;
+  width: 100%;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
 }
