@@ -323,11 +323,19 @@
     display: none;
   }
   .price_control {
-    height: 38px !important;
-    line-height: 38px !important;
+    height: 45px !important;
+    line-height: 45px !important;
   }
   .plan_submit_btn {
-    height: 38px !important;
-    line-height: 38px !important;
+    height: 45px !important;
+    line-height: 45px !important;
+  }
+  .plan_form_close {
+    height: 38px;
+    width: 38px;
+    position: absolute;
+    right: 15px;
+    top: -1%;
+    cursor: pointer;
   }
 }
