@@ -21,7 +21,26 @@ function myFunction() {
     navbar.classList.remove('sticky');
   }
 }
+// ===========
+VanillaTilt.init(document.querySelectorAll('.home_services_body'), {
+  max: 25,
+  speed: 400,
+  glare: true,
+  'max-glare': 1,
+});
 
+// ===========
+VanillaTilt.init(document.querySelectorAll('.team'), {
+  max: 25,
+  speed: 400,
+  glare: true,
+  'max-glare': 1,
+});
+// ===========
+VanillaTilt.init(document.querySelectorAll('.product_body'), {
+  max: 25,
+  speed: 400,
+});
 // =====================
 var containerEl = document.querySelector('.product_main');
 

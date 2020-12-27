@@ -482,12 +482,15 @@ a {
 .home_services_section {
   background-image: linear-gradient(
     to bottom,
-    #1db0c1,
-    #77c1dd,
-    #b2d3ee,
-    #e0e7f7,
-    #ffffff
+    #070707,
+    #151515,
+    #1e1f1f,
+    #28292a,
+    #323434
   );
+}
+.service_custom_heading h2 {
+  color: #e1dfe0 !important;
 }
 .home_services_body {
   transition: all 0.5s linear;
@@ -496,7 +499,7 @@ a {
   background-color: #f1f1f1;
   text-align: center;
   background: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   border-radius: 10px;
@@ -529,7 +532,7 @@ a {
   transition: all 0.5s linear;
 }
 .home_service_text_content p {
-  color: #484848;
+  color: #e1dfe0;
   font-size: 16px;
   transition: all 0.5s linear;
   padding: 0px 10px;
@@ -1217,11 +1220,13 @@ a {
   position: relative;
   border: 1px solid #d8d8d8;
   padding: 1px;
+  border-radius: 20px;
 }
 
 .product_image img {
   height: 100%;
   width: 100%;
+  border-radius: 20px;
 }
 
 .visit_site {
@@ -1248,6 +1253,10 @@ a {
 .product_body:hover .visit_site {
   bottom: 0;
   opacity: 1;
+}
+.product_body {
+  border-radius: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .select_plan_section .price_plan_select_body {
