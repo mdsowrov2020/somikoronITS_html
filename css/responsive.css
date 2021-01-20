@@ -348,4 +348,19 @@
     bottom: 0 !important;
     opacity: 1;
   }
+  .preloader_text {
+    position: absolute;
+    bottom: 26%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    z-index: 1500;
+    transform: translateX(-50%);
+  }
+  .preloader_text h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
 }

@@ -1,7 +1,6 @@
 $(window).on('load', function () {
-  // makes sure the whole site is loaded
-  $('#line').delay(1000).fadeOut(1000); // will first fade out the loading animation
-  $('#preloader').delay(1000).fadeOut(1000); // will fade out the white DIV that covers the website.
+  $('#line').delay(1000).fadeOut(1000);
+  $('#preloader').delay(1000).fadeOut(1000);
 });
 
 window.onscroll = function () {
