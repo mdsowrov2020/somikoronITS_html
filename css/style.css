@@ -170,9 +170,11 @@ a {
 .plan_details {
   text-align: center;
   padding: 25px 18px;
-  border-radius: 0px 35px 00px 35px;
-  background-color: #f5d3fd;
+  border-radius: 10px;
   transition: all 0.5s linear;
+  -webkit-box-shadow: 0px 10px 30px #2b56f524;
+  -moz-box-shadow: 0px 10px 30px #2b56f524;
+  box-shadow: 0px 10px 30px #2b56f524;
   /* border: 1px solid #d443f7; */
 }
 
@@ -192,18 +194,17 @@ a {
   border-radius: 50%;
   overflow: hidden;
   margin: auto;
-  background-color: #d443f7;
+  background-color: #1cafc1;
   /* border: 1px solid #fff; */
   /* background: rgba(255, 255, 255, 0.15); */
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 }
-
 .plan_icons h2 {
-  font-size: 35px;
+  font-size: 31px;
   color: #fff;
-  line-height: 70px;
+  line-height: 72px;
 }
 
 .plan_details h4 {
@@ -216,33 +217,6 @@ a {
 .plan_details p {
   font-size: 14px;
   color: #585658;
-}
-
-.plan_details.regular_cls {
-  background-color: #fdfbd3 !important;
-  /* border: 1px solid #fff63e; */
-}
-
-.plan_details.regular_cls .plan_icons {
-  background-color: #fff63e !important;
-}
-
-.plan_details.best_dev {
-  background-color: #d0ffe2 !important;
-  /* border: 1px solid #43ff8a; */
-}
-
-.plan_details.best_dev .plan_icons {
-  background-color: #43ff8a !important;
-}
-
-.plan_details.high_per {
-  background-color: #ffe1d0 !important;
-  /* border: 1px solid #fb813b; */
-}
-
-.plan_details.high_per .plan_icons {
-  background-color: #fb813b !important;
 }
 
 .plan_content_text {
@@ -1265,6 +1239,11 @@ a {
   height: 100%;
   width: 100%;
   border-radius: 4px;
+  transition: all 0.6s linear;
+}
+
+.product_body:hover .product_image img {
+  transform: scale(1.2);
 }
 
 .visit_site {
@@ -1294,7 +1273,9 @@ a {
 }
 .product_body {
   border-radius: 4px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5); */
+  overflow: hidden;
+  transition: all 0.5s linear;
 }
 
 .select_plan_section .price_plan_select_body {
