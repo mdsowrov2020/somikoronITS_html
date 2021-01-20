@@ -137,14 +137,14 @@
     text-transform: uppercase;
   }
   .home_service_text_content p {
-    color: #484848;
     font-size: 12px;
     transition: all 0.5s linear;
     padding: 0px 10px;
   }
   .home_service_icon {
-    height: 45px;
-    width: 45px;
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
     overflow: hidden;
     margin: auto;
   }
@@ -337,5 +337,15 @@
     right: 15px;
     top: -1%;
     cursor: pointer;
+  }
+  .home_service_icon img {
+    height: 50%;
+    width: 50%;
+  }
+  .visit_site {
+    position: absolute;
+    left: 0;
+    bottom: 0 !important;
+    opacity: 1;
   }
 }

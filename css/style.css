@@ -52,9 +52,9 @@ a {
   width: 100%;
   transition: all 0.5s linear;
   background: #fff !important;
-  background: rgba(255, 255, 255, 0.25) !important;
-  backdrop-filter: blur(4px) !important;
-  -webkit-backdrop-filter: blur(4px) !important;
+  background: rgba(255, 255, 255, 0.45) !important;
+  backdrop-filter: blur(15px) !important;
+  -webkit-backdrop-filter: blur(15px) !important;
 }
 
 .navbar button span {
@@ -62,8 +62,7 @@ a {
 }
 .nav_section {
   padding: 10px 0;
-  -webkit-box-shadow: 1px -1px 15px -1px #666666;
-  box-shadow: 1px -1px 15px -1px #666666;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
 }
 .navbar a img {
   height: 45px;
@@ -402,7 +401,7 @@ a {
   left: 75%;
   width: 110px;
   height: 110px;
-  background-color: #fff !important;
+  background-color: #43ff8a !important;
   animation-delay: 3s;
 }
 .circles li:nth-child(6) span {
@@ -413,7 +412,7 @@ a {
   left: 35%;
   width: 150px;
   height: 150px;
-  background-color: #fff !important;
+  background-color: #fe5619 !important;
   border-radius: 50% !important;
   animation-delay: 7s;
 }
@@ -425,7 +424,7 @@ a {
   left: 50%;
   width: 60px;
   height: 60px;
-  background-color: #fff !important;
+  background-color: #1cafc1 !important;
   animation-delay: 15s;
   animation-duration: 45s;
 }
@@ -479,30 +478,49 @@ a {
   position: relative;
 }
 /* ================ */
-.home_services_section {
+/* .home_services_section {
   background-image: linear-gradient(
     to bottom,
-    #070707,
-    #151515,
-    #1e1f1f,
-    #28292a,
-    #323434
+    #1cafc1,
+    #1599a9,
+    #0f8492,
+    #086f7c,
+    #035b66
   );
-}
-.service_custom_heading h2 {
+} */
+/* .service_custom_heading h2 {
   color: #e1dfe0 !important;
-}
+} */
 .home_services_body {
-  transition: all 0.5s linear;
+  transition: all 0.5s ease-out;
   border-radius: 6px;
   padding: 20px 10px;
   background-color: #f1f1f1;
   text-align: center;
-  background: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.26);
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   border-radius: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.02);
+  border-left: 1px solid rgba(255, 255, 255, 0.02);
+  position: relative;
+  z-index: 2;
+}
+.home_services_body::before {
+  position: absolute;
+  transition: all 0.5s linear;
+  content: '';
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(27, 173, 192, 0.77);
+  z-index: -1;
+  clip-path: circle(13.6% at 2% 0);
+}
+.home_services_body:hover::before {
+  clip-path: circle(139.5% at 2% 0);
 }
 .home_services_body:hover {
   transform: translateY(-10px);
@@ -522,6 +540,10 @@ a {
   font-size: 18px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  transform: translateZ(250px);
+}
+.home_services_body:hover .home_service_text_content h4 {
+  color: #fff;
 }
 .home_service_text_content p span {
   transition: all 0.5s linear;
@@ -531,23 +553,39 @@ a {
   margin-left: 10px;
   transition: all 0.5s linear;
 }
+.home_services_body:hover .home_service_text_content p span {
+  color: #fd1d1d !important;
+}
 .home_service_text_content p {
-  color: #e1dfe0;
+  color: #5f5f5f;
   font-size: 16px;
   transition: all 0.5s linear;
   padding: 0px 10px;
+  transform: translateZ(250px);
+}
+
+.home_services_body:hover .home_service_text_content p {
+  color: #fff;
 }
 
 .home_service_icon {
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  line-height: 70px;
+  width: 70px;
   overflow: hidden;
   margin: auto;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
 .home_service_icon img {
-  height: 100%;
-  width: 100%;
+  height: 50%;
+  width: 50%;
+  transition: all 0.5s ease-out;
+}
+.home_service_icon img:hover {
+  transform: translateZ(200px);
 }
 
 /* choose part start */
@@ -1220,13 +1258,13 @@ a {
   position: relative;
   border: 1px solid #d8d8d8;
   padding: 1px;
-  border-radius: 20px;
+  border-radius: 4px;
 }
 
 .product_image img {
   height: 100%;
   width: 100%;
-  border-radius: 20px;
+  border-radius: 4px;
 }
 
 .visit_site {
@@ -1240,7 +1278,7 @@ a {
   opacity: 0;
   text-align: center;
   transition: all 0.6s linear;
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(255, 255, 255, 0.75);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
@@ -1255,7 +1293,7 @@ a {
   opacity: 1;
 }
 .product_body {
-  border-radius: 20px;
+  border-radius: 4px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
