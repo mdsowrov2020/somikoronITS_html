@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Somikoron ITS</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/slick.css">
@@ -73,7 +74,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-6">
-                    <div class="banner_text_body">
+                    <div class="banner_text_body" data-aos="zoom-in-down">
                         <div class="banner_text_content">
                             <h5>Information Technology Agency</h5>
                             <h2>Somikoron <span>IT</span></h2>
@@ -87,7 +88,7 @@
                                 ></i>
                               </a>
                             </div>
-                            <div class='all_button  mr-2'>
+                            <div class='all_button  mr-2' data-aos="zoom-in-left">
                               <a href="" class="home_contact_btn">
                               Contact Now
                                 <i
@@ -100,7 +101,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="banner_img_body">
+                    <div class="banner_img_body" data-aos="zoom-in-left">
                         <div class="banner_img">
                             <img src="./images/home1.png" alt="" class="img-responsive img-fluid animated">
                         </div>
@@ -116,7 +117,7 @@
     <section class="plan_section d-flex align-items-center py-5">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-6 d-flex align-items-center">
+                <div class="col-md-6 d-flex align-items-center" data-aos="zoom-in">
                     <div class="plan_content_body">
                         <div class="plan_content_text">
                             <h2>Explain Business Challenges With Us</h2>
@@ -130,7 +131,7 @@
                             <div class="col-md-6">
                                 <div class="row">
                                     <div class="col-md-12 py-3">
-                                        <div class="plan_details ">
+                                        <div class="plan_details "  data-aos="fade-right">>
                                             <div class="plan_icons">
                                                 <h2><i class="fas fa-bezier-curve"></i></h2>
                                             </div>
@@ -139,7 +140,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12 py-3">
-                                        <div class="plan_details regular_cls">
+                                        <div class="plan_details regular_cls" data-aos="fade-up">
                                             <div class="plan_icons">
                                                 <h2><i class="fas fa-comments-dollar"></i></h2>
                                             </div>
@@ -152,7 +153,7 @@
                             <div class="col-md-6 custom_margin">
                                 <div class="row">
                                     <div class="col-md-12 py-3">
-                                        <div class="plan_details best_dev ">
+                                        <div class="plan_details best_dev " data-aos="fade-left">
                                             <div class="plan_icons ">
                                                 <h2><i class="fab fa-codepen"></i></h2>
                                             </div>
@@ -161,7 +162,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12 py-3">
-                                        <div class="plan_details high_per ">
+                                        <div class="plan_details high_per " data-aos="fade-down">
                                             <div class="plan_icons">
                                                 <h2><i class="fas fa-award"></i></h2>
                                             </div>
@@ -182,7 +183,7 @@
 
 <!-- About part start -->
 
-<section class="about_section py-5">
+<section class="about_section py-5" data-aos="fade-up">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6">
@@ -222,7 +223,7 @@
 
 <!-- Services part start -->
 
-<section class="home_services_section py-5">
+<section class="home_services_section py-5" data-aos="zoom-in">
   <ul class="circles">
     <li><span class="flaticon-support"></span></li>
     <li></li>
@@ -368,7 +369,7 @@
 <section class="py-5">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-right">
                 <div class="home_choose_body">
                     <div class="home_choose_text_content">
                         <p class="home_choose_title">reason to choose us</p>
@@ -430,7 +431,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-left">
                 <div class="home_choose_img">
                     <img src="./images/choose.png" alt="" class="img-responsive img-fluid">
                 </div>
@@ -844,6 +845,13 @@
       <script src="js/slick.js"></script>
       <script src="js/all_slider.js"></script>
       <script src="js/vanilla-tilt.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script src="js/main.js"></script>
+      <script>
+        AOS.init({
+          offset:300,
+          duration:1000
+        });
+      </script>
 </body>
 </html>
